@@ -1,0 +1,38 @@
+#wrap{
+	height: 800px;
+	width: 	480px;
+	background-color: #cbcbcb;
+	position: absolute;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+	width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.button{
+    margin-top: 5%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+    height: auto;
+}
+
+#topMenu{
+    position: absolute;
+    z-index: 1;
+}
+
+#botMenu{
+    position: absolute;
+    z-index: 0;
+    visibility: hidden;
+}
+

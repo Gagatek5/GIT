@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+<polski>
+	<new>Nowe hasło</new>
+	<sett>Ustawienia</sett>
+	<about>O tej aplikacji</about>
+</polski>
+<angielski>
+	<new>New password</new>
+	<sett>Settings</sett>
+	<about>About this app</about>
+</angielski>
+</strings>
