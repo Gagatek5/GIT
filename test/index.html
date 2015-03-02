@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0, user-scalable=0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/ofecie.css">
+<link rel="stylesheet" type="text/css" href="css/galeria.css">
+<link rel="stylesheet" type="text/css" href="css/sponsorzy.css">
+<link rel="stylesheet" type="text/css" href="css/mapa.css">
+<script src="js/zepto.js"></script>
+<script src="js/index.js"></script>
+<script src="js/fastclick.js"></script>
+</head>
+
+<body>
+
+<div id="wrap">
+	<div id="currentArrow">
+		<img src="res/arrow.png" id="theArrow">
+	</div>
+
+	<div id="menuBar">
+		<div id="topSpace"></div>
+		<div id="titleBar">FETA</div>
+		<div 
+		class="panelButton theChoosenOne" 
+		id="ofecie" 
+		data-page="#ofecieLoad" 
+		data-script="ofecie.js"
+		data-num="1">
+			<span class="buttonText">O FECIE</span>
+		</div>
+		<div 
+		class="panelButton" 
+		id="program" 
+		data-page="#programLoad" 
+		data-script="program.js"
+		data-num="2">
+			<span class="buttonText">PROGRAM</span>
+		</div>
+		<div 
+		class="panelButton" 
+		id="teatry" 
+		data-page="#teatryLoad" 
+		data-script="teatry.js"
+		data-num="3">
+			<span class="buttonText">TEATRY</span>
+		</div>
+		<div 
+		class="panelButton" 
+		id="mapa" 
+		data-page="#mapaLoad" 
+		data-script="mapa.js"
+		data-num="4">
+			<span class="buttonText">MAPA</span>
+		</div>
+		<div 
+		class="panelButton" 
+		id="galeria" 
+		data-page="#galLoad" 
+		data-script="galeria.js"
+		data-num="5">
+			<span class="buttonText">GALERIA</span>
+		</div>
+		<div 
+		class="panelButton" 
+		id="spon" 
+		data-page="#sponLoad" 
+		data-script="spon.js"
+		data-num="6">
+			<span class="buttonText">SPONSORZY</span>
+		</div>
+			<div id="about">APP BY APPERFECTION</div>
+	</div>
+
+	<div id="shadow"></div>
+	<div class="front slide"></div>
+	<div class="back slide"></div>
+	<div id="loads"><div id="spins">Ładowanie...</div></div>
+
+
+</div>
+
+<!--Preload-->
+<div id="preload">
+
+	<!--Galeria-->
+	<div id="galLoad" class="guts">
+		<div id="displayPic">
+			<div id="previousPic"></div>
+			<div id="nextPic"></div>
+			<img src="res/galeria/1d.png" data-number="1" id="insidePic">
+		</div>
+	<img src="res/rightFade.png" id="rightFade">
+	<img src="res/leftFade.png" id="leftFade">
+		<div id="sliderPic" class="scrolls">
+			<div id="inideSlider">
+				<img src="res/galeria/1.png" class="pic">
+				<img src="res/galeria/2.png" class="pic">
+				<img src="res/galeria/3.png" class="pic">
+				<img src="res/galeria/4.png" class="pic">
+				<img src="res/galeria/5.png" class="pic">
+				<img src="res/galeria/6.png" class="pic">
+				<img src="res/galeria/7.png" class="pic">
+				<img src="res/galeria/8.png" class="pic">
+				<img src="res/galeria/9.png" class="pic">
+				<img src="res/galeria/10.png" class="pic">
+				<img src="res/galeria/11.png" class="pic">
+				<img src="res/galeria/12.png" class="pic">
+			</div>
+		</div>
+	</div>
+
+	<!--Sponsorzy-->
+	<div id="sponLoad" class="guts">
+		<div id="leftTop"><img src="res/feta_logo.png" id="sponLogo"></div>
+		<div id="rightTop">
+			<div id="miejsceTop"></div>
+			<span class="sponTitle">Organizator:</span><br>
+			<span class="sponContent">
+				"Plama" Gdański Archipelag Kultury<br>
+				Biuro Organizacyjne Festiwalu<br>
+				ul. Pilotów 11, 80-460 Gdańsk<br>
+				tel. +48 58 57 42 47<br>
+			</span>
+			<span class="sponTitle">www.plama.pl / www.feta.pl</span><br>
+			<span class="sponContent">
+				www.facebook.com/FETAfestiwal!<br>
+				ww.facebook.com/plamaGAK<br>
+				<br>
+				<br>
+			</span>
+			<span class="sponMiniContent">
+				"Plama" Gdański Archipelag Kultury<br>
+				to ogranizator nie tylko FETY. Dowiedz się<br>
+				więcej o naszej działalności, zapisując się<br>
+				na listę subskrybentów naszego newslettera:<br>
+				<span style="color: #252525">www.plama.art.pl</span>
+			</span>
+
+		</div>
+		<div id="sponsorzy">
+		<img src="res/sponsorzy/sponsorzy.png" class="sponsor">
+		</div>
+	</div>
+
+	<!--Mapa-->
+	<div id="mapaLoad" class="guts">
+
+	</div>
+<!--Preload-->
+
+</div>
+</body>
+</html>
